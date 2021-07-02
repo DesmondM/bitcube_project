@@ -28,8 +28,8 @@ function AddStockItem() {
             product_price: e.target.product_price.value,
             product_quantity: Number(e.target.product_quantity.value)
         }
-       console.log(newProduct);
-       setProducts([newProduct]);
+     
+       //setProducts([newProduct]);
         setProducts([...products, newProduct]);
       
     }
@@ -38,11 +38,9 @@ function AddStockItem() {
     return (
        <>
        <div>
-            Add Stock Item
-
         <Form onReset = {addProduct}>
         <Form.Group controlId="formBasicProduct">
-            <Form.Label>Stock Item</Form.Label>
+            <Form.Label>Add Product</Form.Label>
             <Form.Control type="text" placeholder="Product name" name ="product_name" />
            
         </Form.Group>
@@ -62,7 +60,9 @@ function AddStockItem() {
             <Button variant="primary" type="reset" >
                 ADD STOCK
             </Button>
+            
             </Form>
+            <p></p>
         </div>
         <div>
 
