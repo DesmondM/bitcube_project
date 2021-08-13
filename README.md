@@ -1,3 +1,7 @@
+# Live View
+
+https://stock-control-system-8e63de.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
