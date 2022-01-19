@@ -94,7 +94,6 @@ function AddStockItem() {
                   })
                 }
                 
-                
               </tbody>
             </Table>  
 
