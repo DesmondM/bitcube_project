@@ -65,7 +65,6 @@ function AddStockItem() {
             <p></p>
         </div>
         <div>
-
             <Table striped bordered hover variant="dark">
               <thead>
                 <tr>
